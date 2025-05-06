@@ -1,0 +1,368 @@
+body {
+  background-color: #b3a1ce;
+}
+
+.container {
+  background-color: #f8f2d1;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.decoration {
+  background-image: url("natBorder.png");
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+.letter-typing {
+  margin: 0 auto;
+  max-width: 350px;
+  background-color: white;
+  padding: 20px 0px 20px 10px;
+}
+
+.letter-typing p {
+  border-right: 2.4px solid #51446b; 
+  font-family: Courier, monospace;
+  font-size: 9px;
+  color: #51446b;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.letter-typing p:nth-child(1) {
+  width: 110px;
+  animation: type2 2s steps(18, end) forwards;
+}
+
+.letter-typing p:nth-child(2) {
+  width: 310px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 2s forwards;
+}
+
+.letter-typing p:nth-child(3) {
+  width: 310px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 6s forwards;
+}
+
+.letter-typing p:nth-child(4) {
+  width: 320px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 10s forwards;
+}
+
+.letter-typing p:nth-child(5) {
+  width: 320px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 14s forwards;
+}
+
+.letter-typing p:nth-child(6) {
+  width: 320px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 18s forwards;
+}
+
+.letter-typing p:nth-child(7) {
+  width: 310px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 22s forwards;
+}
+
+.letter-typing p:nth-child(8) {
+  width: 310px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 26s forwards;
+}
+
+.letter-typing p:nth-child(9) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 30s forwards;
+}
+
+.letter-typing p:nth-child(10) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 34s forwards;
+}
+
+.letter-typing p:nth-child(11) {
+  width: 315px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 38s forwards;
+}
+
+.letter-typing p:nth-child(12) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 42s forwards;
+}
+
+.letter-typing p:nth-child(13) {
+  width: 325px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 46s forwards;
+}
+
+.letter-typing p:nth-child(14) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 50s forwards;
+}
+
+.letter-typing p:nth-child(15) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 54s forwards;
+}
+
+.letter-typing p:nth-child(16) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 58s forwards;
+}
+
+.letter-typing p:nth-child(17) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 62s forwards;
+}
+
+.letter-typing p:nth-child(18) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 66s forwards;
+}
+
+.letter-typing p:nth-child(19) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 70s forwards;
+}
+
+.letter-typing p:nth-child(20) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 74s forwards;
+}
+
+.letter-typing p:nth-child(21) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 78s forwards;
+}
+
+.letter-typing p:nth-child(22) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 82s forwards;
+}
+
+.letter-typing p:nth-child(23) {
+  width: 330px;
+  opacity: 0;
+  animation: type2 4s steps(56, end) 86s forwards;
+}
+
+.letter-typing p:nth-child(24) {
+  width: 75px;
+  opacity: 0;
+  animation: type2 1s steps(12, end) 90s forwards;
+}
+
+.letter-typing p:nth-child(25) {
+  width: 40px;
+  opacity: 0;
+  animation: type2 1s steps(6, end) 91s forwards;
+}
+
+@keyframes type2 {
+  0% { width: 0; }
+  1% { opacity: 1; }
+  99.9% { border-right: 2.4px solid #51446b; }
+  100% { opacity: 1; border: none; }
+}
+
+/*desktop*/
+@media screen and (min-width: 1400px) {
+  .letter-typing {
+    margin: 0 auto;
+    max-width: 640px;
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+  }
+
+  .container {
+    background-color: #f8f2d1;
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  .decoration{
+    height: 125px;
+  }
+  
+  .letter-typing p {
+    border-right: 2.4px solid #51446b; 
+    font-family: Courier, monospace;
+    font-size: 17px;
+    color: #51446b;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .letter-typing p:nth-child(1) {
+    width: 200px;
+    animation: type2 2s steps(18, end) forwards;
+  }
+  
+  .letter-typing p:nth-child(2) {
+    width: 600px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 2s forwards;
+  }
+  
+  .letter-typing p:nth-child(3) {
+    width: 600px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 6s forwards;
+  }
+  
+  .letter-typing p:nth-child(4) {
+    width: 620px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 10s forwards;
+  }
+  
+  .letter-typing p:nth-child(5) {
+    width: 620px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 14s forwards;
+  }
+  
+  .letter-typing p:nth-child(6) {
+    width: 620px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 18s forwards;
+  }
+  
+  .letter-typing p:nth-child(7) {
+    width: 580px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 22s forwards;
+  }
+  
+  .letter-typing p:nth-child(8) {
+    width: 560px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 26s forwards;
+  }
+  
+  .letter-typing p:nth-child(9) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 30s forwards;
+  }
+  
+  .letter-typing p:nth-child(10) {
+    width: 605px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 34s forwards;
+  }
+  
+  .letter-typing p:nth-child(11) {
+    width: 620px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 38s forwards;
+  }
+  
+  .letter-typing p:nth-child(12) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 42s forwards;
+  }
+  
+  .letter-typing p:nth-child(13) {
+    width: 630px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 46s forwards;
+  }
+  
+  .letter-typing p:nth-child(14) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 50s forwards;
+  }
+  
+  .letter-typing p:nth-child(15) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 54s forwards;
+  }
+  
+  .letter-typing p:nth-child(16) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 58s forwards;
+  }
+  
+  .letter-typing p:nth-child(17) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 62s forwards;
+  }
+  
+  .letter-typing p:nth-child(18) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 66s forwards;
+  }
+  
+  .letter-typing p:nth-child(19) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 70s forwards;
+  }
+  
+  .letter-typing p:nth-child(20) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 74s forwards;
+  }
+  
+  .letter-typing p:nth-child(21) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 78s forwards;
+  }
+  
+  .letter-typing p:nth-child(22) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 82s forwards;
+  }
+  
+  .letter-typing p:nth-child(23) {
+    width: 640px;
+    opacity: 0;
+    animation: type2 4s steps(56, end) 86s forwards;
+  }
+  
+  .letter-typing p:nth-child(24) {
+    width: 130px;
+    opacity: 0;
+    animation: type2 1s steps(12, end) 90s forwards;
+  }
+  
+  .letter-typing p:nth-child(25) {
+    width: 60px;
+    opacity: 0;
+    animation: type2 1s steps(6, end) 91s forwards;
+  }
+}
